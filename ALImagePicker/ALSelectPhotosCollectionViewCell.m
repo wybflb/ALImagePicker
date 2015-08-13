@@ -14,8 +14,6 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-//        self.contentView.layer.borderColor = [UIColor lightGrayColor].CGColor;
-//        self.contentView.layer.borderWidth = 1;
         self.imageView = [[UIImageView alloc] initWithFrame:self.contentView.bounds];
         [self.contentView addSubview:self.imageView];
         
