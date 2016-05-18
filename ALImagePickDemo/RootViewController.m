@@ -48,9 +48,6 @@
         self.imagePicker.delegate = self;
     }
     [self.imagePicker showActionSheetFromView:self.view presentingController:self.navigationController];
-    
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"title" message:@"mesasge" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
-    [alertView show];
 }
 
 - (void)openAlbum:(UIButton *)button
